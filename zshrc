@@ -8,6 +8,9 @@ export PROMPT='%n %~$ %# '
 eval "$(fnm env --use-on-cd)"
 
 # Change directory functions
+autoload -U compinit
+compinit
+
 cdw() {
     cd ~/dev/work
     if [ $# -eq 1 ]; then
@@ -23,3 +26,6 @@ cdp() {
     fi
     ls
 }
+
+compdef '_files -W ~/dev/personal -/' cdp
+compdef '_files -W ~/dev/work -/' cdw
