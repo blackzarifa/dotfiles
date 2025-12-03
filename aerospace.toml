@@ -5,7 +5,7 @@
 # Available commands : https://nikitabobko.github.io/AeroSpace/commands
 after-startup-command = [
   'exec-and-forget open -n /Applications/kitty.app',
-  'exec-and-forget open -n /Applications/Vivaldi.app',
+  'exec-and-forget open -n /Applications/Zen.app',
 ]
 
 # Start AeroSpace at login
@@ -67,7 +67,7 @@ if.app-id = 'net.kovidgoyal.kitty'
 run = 'move-node-to-workspace T'
 
 [[on-window-detected]]
-if.app-id = 'com.vivaldi.Vivaldi'
+if.app-id = 'app.zen-browser.zen'
 run = 'move-node-to-workspace B'
 
 [[on-window-detected]]
