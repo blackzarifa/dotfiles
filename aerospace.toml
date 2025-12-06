@@ -94,6 +94,10 @@ run = 'move-node-to-workspace M'
 if.app-id = 'com.anthropic.claudefordesktop'
 run = 'move-node-to-workspace A'
 
+[[on-window-detected]]
+if.app-id = 'md.obsidian'
+run = 'move-node-to-workspace O'
+
 # 'main' binding mode declaration
 # See: https://nikitabobko.github.io/AeroSpace/guide#binding-modes
 # 'main' binding mode must be always presented
@@ -164,6 +168,7 @@ alt-d = 'workspace D' # Discord
 alt-g = 'workspace G' # GitHub
 alt-k = 'workspace K' # docKer (orbstack)
 alt-m = 'workspace M' # Music
+alt-o = 'workspace O' # Obsidian
 alt-t = 'workspace T' # Terminal
 alt-s = 'workspace S' # SQL (dbeaver)
 
