@@ -1,3 +1,6 @@
+# Aliases
+alias ll='ls -la'
+
 # Ignore duplicate commands on history
 setopt hist_ignore_dups
 
