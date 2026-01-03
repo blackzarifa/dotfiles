@@ -86,9 +86,9 @@ run = 'move-node-to-workspace K'
 if.app-id = 'org.jkiss.dbeaver.core.product'
 run = 'move-node-to-workspace S'
 
-[[on-window-detected]]
-if.app-id = 'com.apple.Music'
-run = 'move-node-to-workspace M'
+# [[on-window-detected]]
+# if.app-id = 'com.apple.Music'
+# run = 'move-node-to-workspace M'
 
 [[on-window-detected]]
 if.app-id = 'com.anthropic.claudefordesktop'
@@ -167,8 +167,8 @@ alt-b = 'workspace B' # Browser
 alt-d = 'workspace D' # Discord
 alt-g = 'workspace G' # GitHub
 alt-k = 'workspace K' # docKer (orbstack)
-alt-m = 'workspace M' # Music
-alt-o = 'workspace O' # Obsidian
+# alt-m = 'workspace M' # Music
+alt-m = 'workspace O' # Obsidian
 alt-t = 'workspace T' # Terminal
 alt-s = 'workspace S' # SQL (dbeaver)
 
