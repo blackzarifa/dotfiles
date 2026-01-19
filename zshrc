@@ -32,3 +32,4 @@ cdp() {
 
 compdef '_files -W ~/dev/personal -/' cdp
 compdef '_files -W ~/dev/work -/' cdw
+eval "$(~/.local/bin/mise activate)"
