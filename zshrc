@@ -14,8 +14,8 @@ eval "$(fnm env --use-on-cd)"
 autoload -U compinit
 compinit
 
-cdw() {
-    cd ~/dev/work
+cdj() {
+    cd ~/obsidian/default-vault/japanese/
     if [ $# -eq 1 ]; then
         cd "$1"
     fi
@@ -30,6 +30,15 @@ cdp() {
     ls
 }
 
+cdw() {
+    cd ~/dev/work
+    if [ $# -eq 1 ]; then
+        cd "$1"
+    fi
+    ls
+}
+
+compdef '_files -W ~/obsidian/default-vault/japanese -/' cdj
 compdef '_files -W ~/dev/personal -/' cdp
 compdef '_files -W ~/dev/work -/' cdw
 eval "$(~/.local/bin/mise activate)"
