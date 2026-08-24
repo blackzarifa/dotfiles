@@ -187,7 +187,7 @@ alt-shift-b = 'move-node-to-workspace B'
 alt-shift-d = 'move-node-to-workspace D'
 alt-shift-g = 'move-node-to-workspace G'
 alt-shift-k = 'move-node-to-workspace K'
-alt-shift-m = 'move-node-to-workspace M'
+alt-shift-m = 'move-node-to-workspace O'
 alt-shift-t = 'move-node-to-workspace T'
 alt-shift-s = 'move-node-to-workspace S'
 
